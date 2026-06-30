@@ -1,0 +1,10 @@
+{
+  "chunk_size": 1700,
+  "chunk_overlap": 120,
+  "retrieval_k": 5,
+  "summary_k": 8,
+  "confidence_threshold": 1.45,
+  "enable_ocr": false,
+  "streaming": true,
+  "show_sources": false
+}

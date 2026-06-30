@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,20 +9,23 @@ venv/
 env/
 ENV/
 
-# Local configuration and environment variables
+# Environment variables
 .env
-config.json
 
-# Session storage & local vectorstores
+# Session storage
 data/sessions/
-vectorstore/
 
-# Node modules and built frontend assets
+# Generated FAISS index (if applicable)
+vectorstore/db_faiss/
+
+# Node
 frontend/node_modules/
 frontend/dist/
 
-# OS/Editor metadata
-.DS_Store
-Thumbs.db
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
