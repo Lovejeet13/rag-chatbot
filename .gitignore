@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local configuration and environment variables
+.env
+config.json
+
+# Session storage & local vectorstores
+data/sessions/
+vectorstore/
+
+# Node modules and built frontend assets
+frontend/node_modules/
+frontend/dist/
+
+# OS/Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
